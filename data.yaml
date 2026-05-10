@@ -1,0 +1,11 @@
+# Đường dẫn tương đối hoặc tuyệt đối đến thư mục dataset
+path: ./datasets  # Thư mục gốc của dataset
+train: images/train  # Ảnh để train (relative to 'path')
+val: images/val      # Ảnh để validate (relative to 'path')
+test: images/test    # (Tùy chọn) Ảnh để test
+
+# Số lượng lớp (classes)
+nc: 1
+
+# Tên các lớp
+names: ['Pneumonia']
